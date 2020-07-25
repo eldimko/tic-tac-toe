@@ -30,6 +30,23 @@ In this stage, you should write a program that:
 
 Now we’re going to write a fully-functioning multi-line program that responds to the user’s actions and analyzes the state of the field. Not only will it tell you who is winning, but it will also determine if the situation on a given field is theoretically possible!
 
+In this stage, your program should:
+
+1. Fill the field from the input and print it as in the previous stage.
+2. Find the state in which the game is at the moment and print it. Possible states:
+
+`"Game not finished"` - when no side has a three in a row but the field has empty cells;
+
+`"Draw"` - when no side has a three in a row and the field has no empty cells;
+
+`"X wins"` - when the field has three X in a row;
+
+`"O wins"` - when the field has three O in a row;
+
+`"Impossible"` - when the field has three X in a row as well as three O in a row. Or the field has a lot more X's that O's or vice versa (if the difference is 2 or more, should be 1 or 0). For this stage, consider that the game can be started both as X's or as O's.
+
+Also, you can use `' '` or `'_'` to print empty cells - it's up to you.
+
 ## Stage 4
 
 Tic-tac-toe is not all about analysis – a game is meant to be played! Write a program that can change the state of the field, as your first real step toward a fully-functioning game application!
