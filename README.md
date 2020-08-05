@@ -51,6 +51,26 @@ Also, you can use `' '` or `'_'` to print empty cells - it's up to you.
 
 Tic-tac-toe is not all about analysis – a game is meant to be played! Write a program that can change the state of the field, as your first real step toward a fully-functioning game application!
 
+The program should work in the following way:
+
+1. Get the 3x3 field from the input as in the previous stages.
+2. Output this 3x3 field with cells before the user's move.
+3. Then ask the user about his next move.
+4. Then the user should input 2 numbers that represent the cell on which user wants to make his X or O. (9 symbols representing the field would be on the first line and these 2 numbers would be on the second line of the user input)
+5. Analyze user input and show messages in the following situations:
+
+    - `"This cell is occupied! Choose another one!"` - if the cell is not empty;
+
+    - `"You should enter numbers!"` - if the user enters other symbols;
+
+    - `"Coordinates should be from 1 to 3!"` - if the user goes beyond the field.
+
+6. Then output the table including the user's most recent move.
+
+
+The program should also check user input. If the user input is unsuitable, the program should ask him to enter coordinates again.
+
+    In addition to that added an ability to check whether the input contained 2 entries.
 ## Stage 5
 
 Finally! Thanks to this app, you can always challenge a friend to play a quick game of Tic-Tac-Toe!
