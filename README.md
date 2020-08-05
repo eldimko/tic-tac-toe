@@ -70,11 +70,18 @@ The program should work in the following way:
 
 The program should also check user input. If the user input is unsuitable, the program should ask him to enter coordinates again.
 
-    In addition to that added an ability to check whether the input contained 2 entries.
+In addition to that added an ability to check whether the input contained 2 entries.
 ## Stage 5
 
 Finally! Thanks to this app, you can always challenge a friend to play a quick game of Tic-Tac-Toe!
 
+In this stage, you should write a program that:
+
+1. Prints an empty field at the beginning of the game.
+2. Creates a game loop where the program asks the user to enter the cell coordinates, analyzes the move for correctness and shows a field with the changes if everything is ok.
+3. Ends the game when someone wins or there is a draw.
+
+You need to output the final result after the end of the game.
 # References
 
 JetBrains Academy: https://hyperskill.org/
